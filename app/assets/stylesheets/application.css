@@ -1,0 +1,123 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+p{
+  margin: 33px;
+}
+
+a {
+  text-decoration: none;
+}
+div{
+  display: block;
+}
+
+label{
+  display: block;
+}
+
+.top-sentence{
+  margin: 33px;
+}
+
+body{
+  color: #333333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  width: 915px;
+  margin: 33px;
+}
+
+h1{
+  color: #333333;
+  margin: 17px 0;
+}
+
+strong{
+  color: #333333;
+}
+
+th{
+  padding: 1px 1px 5px;
+}
+
+td{
+  padding: 1px 5px 7px;
+  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+h2.new-book{
+  color: #333333;
+  width: 915px;
+  margin: 16px auto;
+}
+
+h4{
+  width: 915px;
+}
+
+ul{
+  margin: 33px;
+  padding-left: 40px
+}
+
+.field{
+  margin-bottom: 10px;
+}
+
+.actions{
+  margin-bottom: 10px;
+}
+
+
+.error-explanation{
+  width: 450px;
+  border: 2px solid red;
+  margin-bottom: 20px;
+  padding: 5px 5px 5px 15px;
+  background-color: #f0f0f0;
+}
+
+.field_with_errors{
+  background-color: red;
+  padding: 2px;
+  display: table;
+}
+
+h2 .error-message{
+  font-weight: bold;
+  font-size: 10px;
+  padding: 5px 5px 5px 15px;
+  background-color: #c00;
+}
+
+.error-content{
+  color: #333;
+
+}
+
+#notice{
+  color: green;
+}
+
